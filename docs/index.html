@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
+    <title></title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css"
+        integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+        <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+    <script src="./console.js"></script>
+</head>
+<body>
+    <section>
+    <div class="container">
+        <div class="bio">
+            <img id="profile-img" src=""
+                alt="dreygur" class="rounded-circle profile-img">
+            <h2></h2>
+            <h3></h3>
+        </div>
+
+
+        <div class="term">
+            <div class="column-child terminal shadow">
+                <div class="terminal-bar dark-mode">
+                    <div class="icon-btn close"></div>
+                    <div class="icon-btn min"></div>
+                    <div class="icon-btn max"></div>
+                    <div class="terminal-bar-text is-hidden-mobile dark-mode-text"></div>
+                </div>
+                <div class="terminal-window primary-bg" onclick="document.getElementById('dummyKeyboard').focus();">
+                    <div class="terminal-output" id="terminalOutput">
+                        <div class="terminal-line">
+                            <span class="help-msg">Hi there, Welcome! — Type <span class="code">help</span>
+                                and press Enter for a list of supported commands.</span>
+                        </div>
+                    </div>
+                    <div class="terminal-line">
+                        <span class="success">➜</span> <span class="directory">~</span>
+                        <span class="user-input" id="userInput"></span>
+                        <input type="text" id="dummyKeyboard" class="dummy-keyboard">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact" orientation="right">
+            <ul class="social">
+                <li>
+                    <a id="github" class="link github" href="http://" target="_blank" rel="noopener noreferrer"><i class="fa fa-github"
+                            aria-hidden="true"></i></a>
+                </li>
+                <li>
+                    <a id="stackoverflow" class="link" href="http://" target="_blank" rel="noopener noreferrer"><i
+                            class="fa fa-stack-overflow" aria-hidden="true"></i></a>
+                </li>
+                <li>
+                    <a id="facebook" class="link" href="http://" target="_blank" rel="noopener noreferrer"><i
+                            class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="left-wrapper email" orientation="right">
+            <a id="mail" class="email-a" href=""></a>
+        </div>
+
+    </div>
+    </section>
+</body>
+</html>
